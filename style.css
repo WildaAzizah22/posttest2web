@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: #F8B195;
+  padding: 10px;
+  text-align: center;
+  color: #c74d5b;
+}
+h2 {
+  background-color: #F8B195; 
+  padding: 10px; 
+  text-align: center; 
+  width: 100%;
+  color: #c74d5b;
+}
+nav {
+  background-color: #F67280;
+  overflow: hidden;
+}
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #C06C84;
+}
+.about {
+  padding: 20px;
+  text-align: center;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+.product {
+  background-color: #F8B195;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+.orders {
+  padding: 20px;
+  text-align: center;
+}
+
+    .product-list{
+      font-size: 15px;
+      background-color: #F8B195;
+    }
+    .orders {
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
+
+    .orders h2 {
+      margin-bottom: 20px;
+    }
+
+    .orders form {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+
+    .orders label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .orders option {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .orders input,
+    .orders textarea {
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+
+    }
+    .orders input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .orders input[type="submit"]:hover {
+      background-color: #3e8e41;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f9f9f9;
+    }
+    
+    .form-container {
+      background-color: #fff;
+      padding: 30px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-container h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 16px;
+      outline: none;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      border-color: #6a5acd;
+    }
+    
+    .form-group select {
+      height: 40px;
+    }
+    
+    .form-group label.checkbox {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    
+    .form-group button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      margin-top: 20px;
+      background-color: #6a5acd;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    
+    .welcome-container {
+      display: none;
+      background-color: #fff;
+      padding: 30px;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .welcome-container h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    
+    .welcome-container button {
+      display: block;
+      margin: 0 auto;
+      padding: 10px;
+      background-color: #6a5acd;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+    }
